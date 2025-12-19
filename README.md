@@ -1,6 +1,6 @@
 
-# 🌐 LIFE Framework: Life Is Full Effective
-
+# 🌐 LIFE: Life Is Full Effectiv｜A Dissipative AI Framework
+ 
 ---
 
 ## 🎯 Project Manifesto ｜ 项目宣言
