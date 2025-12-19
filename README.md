@@ -1,5 +1,5 @@
 
-# 🌐 LIFE: Life Is Full Effectiv｜A Dissipative AI Framework
+# 🌐 LIFE: Life Is Full Effective｜A Dissipative AI Framework
  
 ---
 
