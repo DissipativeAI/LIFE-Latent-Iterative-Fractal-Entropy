@@ -12,7 +12,7 @@
 
 ## 摘要 (Abstract)
 
-当前主流人工智能架构（如 Transformer）依赖静态拓扑与冗余参数拟合数据，面临能效比低下、泛化边界缺失及因果逻辑断裂等挑战。本文提出 **LIFE (Latent Iterative Fractal Entropy)** 理论框架。该架构基于非平衡态热力学与分形几何，将智能定义为一种**动态多尺度耗散结构**。LIFE 放弃单一标量损失函数，转向优化潜空间流形上的**广义自由能泛函**，实现拓扑结构随输入熵密度的**动态同构 (Dynamic Isomorphism)**。理论论证表明，LIFE 通过“流致结构”机制在最小化热力学熵产的同时保障预测精度，为构建具备物理锚定与抗幻觉能力的 AGI 奠定了理论基础。
+当前主流人工智能架构（如 Transformer）依赖静态拓扑与冗余参数拟合数据，面临能效比低下、泛化边界缺失及因果逻辑断裂等挑战。本文提出 **LIFE (Latent Iterative Fractal Entropy)** 理论框架。该架构基于非平衡态热力学与分形几何，将智能定义为一种**动态多尺度耗散结构**。LIFE 放弃单一标量损失函数，转向优化潜空间流形上的 **广义自由能泛函**，实现拓扑结构随输入熵密度的 **动态同构 (Dynamic Isomorphism)**。理论论证表明，LIFE 通过“流致结构”机制在最小化热力学熵产的同时保障预测精度，为构建具备物理锚定与抗幻觉能力的 AGI 奠定了理论基础。
 
 ----------
 
@@ -20,7 +20,7 @@
 
 ### 1.1 静态架构的拓扑局限
 
-现有的深度学习模型（CNN, Transformer, SSM）在本质上是**代数静态的**：其计算图结构在推理阶段保持不变。这种设计导致了模型的有限代数容量与现实世界无限几何拓扑之间的本质错配，表现为“简单任务的过度计算”与“复杂任务的表层拟合”。
+现有的深度学习模型（CNN, Transformer, SSM）在本质上是 **代数静态的** ：其计算图结构在推理阶段保持不变。这种设计导致了模型的有限代数容量与现实世界无限几何拓扑之间的本质错配，表现为“简单任务的过度计算”与“复杂任务的表层拟合”。
 
 ### 1.2 智能作为耗散系统
 
@@ -36,7 +36,7 @@
     
 -   公理 II：动态同构原理 (Dynamic Isomorphism)
     
-    网络拓扑 $\mathcal{T}$ 是输入信号局部熵密度 $h(x)$ 的函数：$\mathcal{T}(x) = \Phi(h(x))$。
+    网络拓扑 $\mathcal{T}$ 是输入信号局部熵密度 $h(x)$的函数 $\mathcal{T}(x)=\Phi(h(x))$
     
 -   公理 III：热力学因果锚定 (Thermodynamic Causal Anchoring)
     
@@ -53,7 +53,7 @@ LIFE 的优化目标是在时间尺度 $\tau$ 内最小化泛函 $\mathcal{F}$�
 
 $$\mathcal{F} = \int_{\tau} \left( D_{KL}[Q(\phi | x) \parallel P(\phi)] + \lambda \cdot \dot{S}_{\text{prod}}(\mathcal{T}) \right) d\tau$$
 
-其中 $D_{KL}$ 代表预测惊奇度（Surprise），$\dot{S}_{\text{prod}}$ 代表维持当前拓扑所需的内部熵产率（Thermodynamic Cost）。
+其中 $D_{KL}$ 代表预测惊奇度（Surprise）$\dot{S}_{\text{prod}}$ 代表维持当前拓扑所需的内部熵产率（Thermodynamic Cost）
 
 ### 3.2 拓扑相变的朗道动力学 (Topological Phase Transition)
 
